@@ -103,5 +103,68 @@ nav ul li a:hover {
     .content p {
         font-size: 1rem;
     }
+    /* Restyled footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 0.9rem;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 25%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+.footer-section.social ul {
+    display: flex;
+}
+
+.footer-section.social ul li {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+}
+
 
