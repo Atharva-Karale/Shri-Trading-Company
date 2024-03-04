@@ -105,7 +105,8 @@ nav ul li a:hover {
     }
    
     /* footer section start */
-    .site-footer
+    
+    .site-footer {
 {
   background-color:#26272b;
   padding:45px 0 20px;
@@ -268,6 +269,7 @@ nav ul li a:hover {
     font-weight:600
   }
 }
+    }
     /* footer section end */
 
 
